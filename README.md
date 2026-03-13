@@ -66,19 +66,29 @@ The lab environment consists of three virtual machines running inside a virtual 
 
 Attack Simulation
 (Kali Linux)
+
       ↓
+      
 Endpoint Activity
 (Windows 11)
+
       ↓
+      
 Log Collection
 (Wazuh Agent)
+
       ↓
+      
 Log Analysis
 (Wazuh SIEM Server)
+
       ↓
+      
 Security Alerts
 (Wazuh Dashboard)
+
       ↓
+      
 Threat Investigation
 
 
