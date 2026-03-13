@@ -80,6 +80,16 @@ Attack Simulation (Kali Linux) → Endpoint Activity (Windows 11) → Log Collec
 
 ---
 
+## Project Write-up
+
+A detailed explanation of this project, including the lab setup, attack simulation, detection workflow, and troubleshooting steps, is available in the full blog post:
+
+**Medium Article:**  
+https://medium.com/@kushagragupta7/building-a-home-soc-lab-with-wazuh-siem-acb44c6f4091
+
+---
+
 ## Author
 
-**Kushagra Gupta**
+[**Kushagra Gupta**](https://www.linkedin.com/in/kushagra-gupta-a1b6b4291/)
+mail2kush13@gmail.com
