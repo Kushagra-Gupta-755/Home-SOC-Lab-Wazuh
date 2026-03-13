@@ -4,7 +4,7 @@
 
 This project demonstrates a **Home Security Operations Center (SOC) Lab** built using the **Wazuh SIEM platform**. The lab simulates a monitored network environment where endpoint logs are collected, analyzed, and used to detect suspicious activity.
 
-The goal of this project is to gain hands-on experience with **SIEM deployment, endpoint monitoring, log analysis, threat detection, and security event investigation** in a virtual environment.
+The goal of this project is to gain experience with **SIEM deployment, endpoint monitoring, log analysis, threat detection, and security event investigation** in a virtual environment.
 
 ---
 
