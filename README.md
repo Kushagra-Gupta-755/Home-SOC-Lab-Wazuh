@@ -31,34 +31,40 @@ The lab environment consists of three virtual machines running inside a virtual 
 | Windows 11 | Monitored endpoint running Wazuh Agent |
 | Ubuntu Server | Wazuh SIEM server |
 
-Kali Linux (Attacker)
-│
-▼
-Windows 11 Endpoint
-(Wazuh Agent)
-│
-▼
-Wazuh SIEM Server (Ubuntu)
-│
-▼
-Wazuh Dashboard
-(Security Monitoring & Alerts)
+    +---------------------+
+    |     Kali Linux      |
+    |   Attacker Machine  |
+    |     (Nmap Scan)     |
+    +----------+----------+
+               |
+               | Attack Traffic
+               v
+    +---------------------+
+    |     Windows 11      |
+    |      Endpoint       |
+    |     Wazuh Agent     |
+    +----------+----------+
+               |
+               | Security Logs
+               v
+    +---------------------+
+    |      Ubuntu VM      |
+    |     Wazuh Server    |
+    |  Manager + Indexer  |
+    |     Dashboard       |
+    +---------------------+
+               |
+               v
+        SOC Monitoring
+           Dashboard
 
 
 ---
 
 ## SOC Detection Workflow
-Attack Simulation
-↓
-Endpoint Activity
-↓
-Log Collection (Wazuh Agent)
-↓
-Log Analysis (Wazuh SIEM)
-↓
-Security Alert Generation
-↓
-Threat Investigation
+
+
+Attack Simulation --> Endpoint Activity --> Log Collection (Wazuh Agent) --> Log Analysis (Wazuh SIEM) --> Security Alert Generation --> Threat Investigation
 
 
 ---
